@@ -1,0 +1,154 @@
+/* common things */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* hero section */
+.hero-container {
+  width: 80%;
+  margin-left: 120px;
+}
+.hero-box {
+  display: flex;
+}
+.hero-text {
+}
+.hero-heading {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #3a3a3a;
+  margin: 0;
+  padding-bottom: 16px;
+}
+.hero-details {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #3a3a3a;
+  margin: 0;
+  padding-bottom: 16px;
+}
+.hero-btn {
+  text-decoration: none;
+  height: 44px;
+  width: 196px;
+  border-radius: 41px;
+  padding: 10px 24px 10px 24px;
+  background: #e02c6d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.hero-btn:hover {
+  background: rgb(230, 0, 255);
+  transition: background 2s;
+}
+.hero-image {
+}
+.hero-image-bg {
+  height: 475px;
+  width: 475px;
+  background-image: url(../images/hero-img-bg.svg);
+}
+/* company section */
+.companies-box {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.companies-container {
+  display: flex;
+  justify-content: center;
+}
+.companies {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 60px;
+}
+.company {
+  width: 84px;
+}
+/* popular collection  */
+.popular-collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular-collection-heading {
+  font-size: 28px;
+  color: #3a3a3a;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+}
+.product-title {
+  text-transform: capitalize;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18191f;
+  margin: 0;
+}
+.product-price {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding-top: 6px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.product-rating > span {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #5e6366;
+}
+.fa-star {
+  color: #fb8200;
+}
+.world-wide-shipping,
+.buyer-protection {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.018em;
+  text-align: left;
+  color: #787885;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.product {
+  width: 329px;
+  box-shadow: 0px 0px 40px 0px #00000026;
+}
+.product-meta {
+  padding: 17px 15px;
+}
+.product-meta img {
+  width: 300px;
+}
